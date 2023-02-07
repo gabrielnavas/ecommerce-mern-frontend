@@ -30,10 +30,10 @@ function Signup() {
               <Form.Label>Senha</Form.Label>
               <Form.Control type ="password" placeholder="******" required value={password} onChange={e => setPassword(e.target.value)} />
             </Form.Group>
-            <Form.Group>
+            <Form.Group style={{ marginTop: '20px' }}>
               <Button type="submit">Cadastrar</Button>
             </Form.Group>
-            <p><Link to="/login">Já tenho conta</Link></p>
+            <p style={{ marginTop: '5px' }}><Link to="/login">Já tenho conta</Link></p>
           </Form>
         </Col>
         <Col md={6} className="signup__image--container"></Col>

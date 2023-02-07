@@ -1,5 +1,33 @@
+.home__image--container img {
+  max-width: 1200px;
+  display: block;
+  margin: 0 auto;
+}
+
 .home__categoryall--link {
   text-align: right;
   display: block;
   text-decoration: none;
+}
+
+.category-title {
+  height: 250px;
+  background-size: cover;
+  background-position: center;
+  padding-left: 20px;
+  padding-right: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 30px;
+  cursor: pointer;
+  transition: all 0.3;
+  margin-top: 30px;
+}
+
+.sale__banner--container img {
+  max-width: 1200px;
+  display: block;
+  margin: 0 auto;
 }
